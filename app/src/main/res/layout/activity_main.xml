@@ -56,6 +56,12 @@
             android:layout_height="wrap_content"
             android:text="Date of Birth" />
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+
         <EditText
             android:id="@+id/editTextDate"
             android:layout_width="match_parent"
