@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
     boolean gameActive=true;
 
     // player representation
@@ -59,14 +60,18 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // checking if someone won
-        for (int[] winpostion: winPositions) {
+        for (int[] winpostion: winPositions)
+        {
             if (gamestate[winpostion[0]] == gamestate[winpostion[1]] &&
-                    gamestate[winpostion[1]] == gamestate[winpostion[2]] && gamestate[winpostion[0]] != 2) {
+                    gamestate[winpostion[1]] == gamestate[winpostion[2]] && gamestate[winpostion[0]] != 2)
+            {
                 String winnerStr;
                 gameActive = false;
-                if (gamestate[winpostion[0]] == 0) {
+                if (gamestate[winpostion[0]] == 0)
+                {
                     winnerStr = "Player 0 won!";
-                } else {
+                } else
+                {
                     winnerStr = "Player X won!";
                 }
 
@@ -76,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-    
+
     public void gameReset(View view)
     {
         gameActive=true;
@@ -99,7 +104,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
