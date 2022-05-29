@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
    // Button prevbutton, next;
     ImageButton prev, next;
     ImageView frame;
-    TextView filenm= findViewById(R.id.filenm);
+    TextView filenm;
     int currentImage=1;
 
 
@@ -23,10 +23,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void prev(View v)
     {
+        filenm= findViewById(R.id.filenm);
         String idx = "frame" + currentImage;
         int x = this.getResources().getIdentifier(idx,"id", getPackageName());
         frame = findViewById(x);
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void next(View v)
     {
+        filenm= findViewById(R.id.filenm);
         String idx = "frame" + currentImage;
         int x = this.getResources().getIdentifier(idx,"id", getPackageName());
         frame = findViewById(x);
