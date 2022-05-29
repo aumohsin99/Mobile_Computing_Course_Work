@@ -2,5 +2,7 @@
     <string name="app_name">Photo Frame App</string>
     <string name="prevbutton">Previous</string>
     <string name="nextbutton">Next</string>
+    <string name="heading">Photo Album</string>
+    <string name="imgview">main_screen</string>
 
 </resources>
