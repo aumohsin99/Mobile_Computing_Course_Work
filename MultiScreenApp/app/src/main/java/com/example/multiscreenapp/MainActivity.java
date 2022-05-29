@@ -26,9 +26,11 @@ public class MainActivity extends AppCompatActivity
         EditText item2 = findViewById(R.id.item2);
         EditText item3 = findViewById(R.id.item3);
 
-        String message = item1.getText().toString() + ","
-                + item2.getText().toString() + "&"
-                + item3.getText().toString();
+        String message = "Your order consisting of "
+                + item1.getText().toString() + ", "
+                + item2.getText().toString() + " & "
+                + item3.getText().toString() +
+                " has been successfully placed."                ;
 
         intent.putExtra(msg, message);
 
