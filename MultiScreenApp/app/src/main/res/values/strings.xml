@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Multi Screen App</string>
+    <string name="placeorderbtn">Place Order</string>
+    <string name="heading">Welcome to Food Panda</string>
+</resources>
