@@ -87,6 +87,7 @@
         tools:srcCompat="@drawable/i5" />
 
     <TextView
+        android:clickable="true"
         android:id="@+id/heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -98,6 +99,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:clickable="true"
         android:id="@+id/prevbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -110,6 +112,7 @@
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
+        android:clickable="true"
         android:id="@+id/nextbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -130,6 +133,7 @@
         app:layout_constraintTop_toBottomOf="@+id/prevbutton">
 
         <ImageButton
+            android:clickable="true"
             android:id="@+id/prev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -140,6 +144,7 @@
             app:srcCompat="@drawable/prev_but" />
 
         <ImageButton
+            android:clickable="true"
             android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
