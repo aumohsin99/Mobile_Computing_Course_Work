@@ -4,5 +4,7 @@
     <string name="nextbutton">Next</string>
     <string name="heading">Photo Album</string>
     <string name="imgview">main_screen</string>
+    <string name="next_but">next_but</string>
+    <string name="flilenm">File Name</string>
 
 </resources>
