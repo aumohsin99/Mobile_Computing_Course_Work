@@ -102,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:onClick="prev()"
+        android:onClick="prev"
         android:text="@string/prevbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
-        android:onClick="next()"
+        android:onClick="next"
         android:text="@string/nextbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,7 +136,7 @@
             android:layout_weight="1"
             android:contentDescription="@string/prevbutton"
             android:minHeight="48dp"
-            android:onClick="prev()"
+            android:onClick="prev"
             app:srcCompat="@drawable/prev_but" />
 
         <ImageButton
@@ -146,7 +146,7 @@
             android:layout_weight="1"
             android:contentDescription="@string/next_but"
             android:minHeight="48dp"
-            android:onClick="next()"
+            android:onClick="next"
             app:srcCompat="@drawable/next_but"
             tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>

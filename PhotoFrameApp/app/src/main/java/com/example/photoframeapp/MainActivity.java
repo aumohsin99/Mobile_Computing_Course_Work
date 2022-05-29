@@ -10,10 +10,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    Button prevbutton, nextbutton;
+
+    String[] names = {"1", "2", "3", "4", "5" };
+   // Button prevbutton, next;
     ImageButton prev, next;
     ImageView frame;
-    TextView filenm;
+    TextView filenm= findViewById(R.id.filenm);
     int currentImage=1;
 
 
@@ -25,32 +27,35 @@ public class MainActivity extends AppCompatActivity {
 
     public void prev(View v)
     {
-        String idx = "i" + currentImage;
+        String idx = "frame" + currentImage;
         int x = this.getResources().getIdentifier(idx,"id", getPackageName());
         frame = findViewById(x);
         frame.setAlpha(0f);
 
         currentImage=(5+currentImage-1)%5;
 
-        String idy = "i" + currentImage;
+        String idy = "frame" + currentImage;
         int y = this.getResources().getIdentifier(idy,"id", getPackageName());
         frame = findViewById(y);
         frame.setAlpha(1f);
-
+        filenm.setText(names[currentImage]);
     }
 
     public void next(View v)
     {
-        String idx = "i" + currentImage;
+        String idx = "frame" + currentImage;
         int x = this.getResources().getIdentifier(idx,"id", getPackageName());
         frame = findViewById(x);
         frame.setAlpha(0f);
 
         currentImage=(5+currentImage+1)%5;
 
-        String idy = "i" + currentImage;
+        String idy = "frame" + currentImage;
         int y = this.getResources().getIdentifier(idy,"id", getPackageName());
         frame = findViewById(y);
         frame.setAlpha(1f);
+
+        filenm.setText(names[currentImage]);
+
     }
 }
