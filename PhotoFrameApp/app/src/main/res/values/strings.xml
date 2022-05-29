@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Photo Frame App</string>
+    <string name="prevbutton">Previous</string>
+    <string name="nextbutton">Next</string>
+
 </resources>
