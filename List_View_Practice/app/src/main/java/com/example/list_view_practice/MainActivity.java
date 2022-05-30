@@ -22,7 +22,12 @@ public class MainActivity extends AppCompatActivity {
         grocery.add("Pen");
         grocery.add("Bag");
 
-        ArrayAdapter<String> myAdapter = new ArrayAdapter<>(context: this, Android.R.Layout
+
+     //   ArrayAdapter<String> myAdapter = new ArrayAdapter<String>( context:this, android.R.layout.simple_list_item_1, grocery);
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,grocery);
+        myListView.setAdapter(myAdapter);
+        
+
 
 
 
