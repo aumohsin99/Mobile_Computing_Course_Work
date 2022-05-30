@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
      //   ArrayAdapter<String> myAdapter = new ArrayAdapter<String>( context:this, android.R.layout.simple_list_item_1, grocery);
         ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,grocery);
         myListView.setAdapter(myAdapter);
-        
+
 
 
 
