@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Activities_Intents</string>
+    <string name="mainImage">centered image</string>
 </resources>
