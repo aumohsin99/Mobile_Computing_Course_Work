@@ -10,7 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="220dp"
         android:layout_height="290dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="90dp"
         android:contentDescription="@string/mainImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,38 +22,51 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Image Name"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="450dp" />
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Check"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="500dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/naturebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nature"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="575dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mmbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/mmbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Man Made"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="575dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.503" />
 
     <Button
         android:id="@+id/fakebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fake"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="575dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mmbtn"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
