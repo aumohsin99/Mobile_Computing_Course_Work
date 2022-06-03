@@ -14,6 +14,48 @@
         android:theme="@style/Theme.LearnColors"
         tools:targetApi="31">
         <activity
+            android:name=".SummaryPage"
+            android:exported="false" />
+        <activity
+            android:name=".YellowPage"
+            android:exported="false" />
+        <activity
+            android:name=".WhitePage"
+            android:exported="false" />
+        <activity
+            android:name=".PinkPage"
+            android:exported="false" />
+        <activity
+            android:name=".PurplePage"
+            android:exported="false" />
+        <activity
+            android:name=".GreenPage"
+            android:exported="false" />
+        <activity
+            android:name=".GrayPage"
+            android:exported="false" />
+        <activity
+            android:name=".BrownPage"
+            android:exported="false" />
+        <activity
+            android:name=".BlackPage"
+            android:exported="false" />
+        <activity
+            android:name=".OrangePage"
+            android:exported="false" />
+        <activity
+            android:name=".BluePage"
+            android:exported="false" />
+        <activity
+            android:name=".RedPage"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeMainScreen"
+            android:exported="false" />
+        <activity
+            android:name=".LearnMainScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

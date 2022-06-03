@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/learnbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="0.335" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/practicebtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="150dp"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.335" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/repobutton"
         android:layout_width="138dp"
         android:layout_height="56dp"
         android:layout_marginTop="250dp"
