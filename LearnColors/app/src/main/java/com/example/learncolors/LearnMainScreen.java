@@ -55,9 +55,9 @@ public class LearnMainScreen extends AppCompatActivity implements View.OnClickLi
                 startActivity(intent1);
                 break;
 
-            // Todo Toasts to be added for new pages
+            // Todo Toasts to be added for new pages/activities
 
-            // todo lesson/page numbers to be added for all modules
+            // todo lesson/page numbers to be added in all modules
 
             // todo customized list views to be added
 
