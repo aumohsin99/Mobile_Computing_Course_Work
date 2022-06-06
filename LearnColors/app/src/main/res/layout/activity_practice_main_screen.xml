@@ -24,14 +24,16 @@
                 android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                android:text="Option 1" />
+                android:backgroundTint="@color/purple_700"
+                android:text="Blue" />
 
             <Button
                 android:id="@+id/opt2button"
                 android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                android:text="Option 2" />
+                android:backgroundTint="#000000"
+                android:text="Black" />
         </TableRow>
 
         <TableRow
@@ -43,14 +45,16 @@
                 android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                android:text="Option 3" />
+                android:backgroundTint="#307505"
+                android:text="Green" />
 
             <Button
                 android:id="@+id/opt4button"
                 android:layout_width="150dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                android:text="Option 4" />
+                android:backgroundTint="#8F3D17"
+                android:text="Brown" />
         </TableRow>
 
     </TableLayout>
