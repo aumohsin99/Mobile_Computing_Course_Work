@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Customized_List_View_PR</string>
+    <string name="not_a_button">Not a Button</string>
 </resources>

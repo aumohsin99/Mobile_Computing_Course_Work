@@ -7,11 +7,11 @@
     android:backgroundTint="#D6CCCC"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/buttonforlistview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F6EFEF"
-        android:text="Hello World!"
+        android:text="@string/not_a_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
