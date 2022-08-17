@@ -14,6 +14,13 @@ import java.util.Map;
 
 public class PracticeMainScreen extends AppCompatActivity implements View.OnClickListener
 {
+    // int index = (int)(Math.random()*(max-min+1)+min);
+    //   int min = 1;
+    //    int max= 12;
+    int index = randomgenerator(1, 12);
+
+    String[] colorsarray = {"Red", "Green", "Yellow", "Black", "Blue", "Brown", "Gray", "Orange", "Pink", "Purple", "White"};
+    String[] optionsarray = {};
 
     public int randomgenerator(int min, int max)
     {
@@ -21,12 +28,23 @@ public class PracticeMainScreen extends AppCompatActivity implements View.OnClic
         return index;
     }
 
-    // int index = (int)(Math.random()*(max-min+1)+min);
-//   int min = 1;
-//    int max= 12;
-    int index = randomgenerator(1, 12);
+    public int four_randomgenerator(int min, int max)
+    {
+        int i = 0;
+        int j = (int) (Math.random() * (max - min + 1) + min);
+        while (i < 5) {s
+            i++;
+        }
+        return 0;
+    }
 
-    String[] colorsarray = {"Red", "Green", "Yellow", "Black", "Blue", "Brown", "Gray", "Orange", "Pink", "Purple", "White"};
+
+
+
+}
+
+
+
 
 
     //Map<String, String> dictionaryone = new Map<String, String>() ;
@@ -110,7 +128,7 @@ public class PracticeMainScreen extends AppCompatActivity implements View.OnClic
         }
     }
 
-    public void quiztry1(String[] colorsarray[index], )
+   // public void quiztry1(String[] colorsarray[index], )
     {
 
     }
