@@ -5,4 +5,5 @@
     <string name="IsEnrolled">IsEnrolled</string>
     <string name="ButtonViewAll">View All Records</string>
     <string name="Add">Add Record</string>
+    <string name="rollnumber">RollNumber</string>
 </resources>
