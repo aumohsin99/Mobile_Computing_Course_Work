@@ -83,6 +83,19 @@ public class DBHelper extends SQLiteOpenHelper {
         return db.delete(STUDENT_TABLE, STUDENT_ROLL + "=" + rNo.toString(), null) > 0;
 
     }
-    
+
+    public boolean updateCourse(String newName,String newRollNo, boolean isEnroll,String oldRollNo) {
+        // calling a method to get writable database.
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+
+        values.put(STUDENT_NAME, newName);
+        values.put(STUDENT_ROLL, newRollNo);
+        values.put(STUDENT_ENROLL, isEnroll);
+
+        return db.update(STUDENT_TABLE, values, STUDENT_ROLL + "=" + oldRollNo, null)>0;
+        //db.close();
+    }
 
 }
