@@ -1,6 +1,5 @@
 package com.example.db_crud_task;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
@@ -45,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 try {
                     studentModel = new StudentModel(editName.getText().toString(), Integer.parseInt(editRollNumber.getText().toString()), switchIsActive.isChecked());
-                    //Toast.makeText(MainActivity.this, studentModel.toString(), Toast.LENGTH_SHORT).show();
                 }
                 catch (Exception e){
                     Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show();
@@ -82,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
         //Your action here
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Enter Information to update :");
-        LinearLayout lila1= new LinearLayout(this);
-        lila1.setOrientation(LinearLayout.VERTICAL);
+        LinearLayout linearlayoutfirst= new LinearLayout(this);
+        linearlayoutfirst.setOrientation(LinearLayout.VERTICAL);
         // Set up the input
         final EditText inputName = new EditText(this);
         final EditText inputRollNo = new EditText(this);
@@ -101,10 +99,10 @@ public class MainActivity extends AppCompatActivity {
                 isEnroll.setText("Active Student Status");
                 boolean result=(status.substring(0,status.length()-1))=="false"? false:true;
                 isEnroll.setChecked(result);
-                lila1.addView(inputName);
-                lila1.addView(inputRollNo);
-                lila1.addView(isEnroll);
-                builder.setView(lila1);
+                linearlayoutfirst.addView(inputName);
+                linearlayoutfirst.addView(inputRollNo);
+                linearlayoutfirst.addView(isEnroll);
+                builder.setView(linearlayoutfirst);
 // Set up the buttons
                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
