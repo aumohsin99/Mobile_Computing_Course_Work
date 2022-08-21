@@ -41,7 +41,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public void  addStudent(StudentModel STUDENTModel){
         SQLiteDatabase db = this.getWritableDatabase();
-        //Hash map, as we did in bundles
         ContentValues cv = new ContentValues();
 
         cv.put(STUDENT_NAME, STUDENTModel.getName());
@@ -49,10 +48,6 @@ public class DBHelper extends SQLiteOpenHelper {
         cv.put(STUDENT_ENROLL, STUDENTModel.isEnroll());
         db.insert(STUDENT_TABLE, null, cv);
         db.close();
-        //NullCoumnHack
-        //long insert =
-        //if (insert == -1) { return false; }
-        //else{return true;}
     }
 
     public ArrayList<StudentModel> getAllStudents() {
@@ -88,7 +83,6 @@ public class DBHelper extends SQLiteOpenHelper {
         // calling a method to get writable database.
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-
 
         values.put(STUDENT_NAME, newName);
         values.put(STUDENT_ROLL, newRollNo);
