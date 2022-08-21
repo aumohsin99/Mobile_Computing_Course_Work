@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DB_CRUD_Task</string>
+    <string name="StudentName">studentName</string>
+    <string name="rollnumber">RollNumber</string>
+    <string name="Add">Add</string>
+    <string name="ButtonViewAll">View_All</string>
+    <string name="IsEnrolled">IsEnrolled</string>
+
 </resources>
