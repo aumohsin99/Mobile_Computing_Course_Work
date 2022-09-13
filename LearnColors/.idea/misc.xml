@@ -3,37 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_black_page.xml" value="0.2" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_blue_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_brown_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_gray_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_green_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_learn_main_screen.xml" value="0.2" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_main.xml" value="0.18" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_orange_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_pink_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_purple_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_red_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_summary_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_white_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-land/activity_yellow_page.xml" value="0.1328125" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.15" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_black_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_blue_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_brown_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_gray_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_green_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_learn_main_screen.xml" value="0.25" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_orange_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_pink_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_practice_main_screen.xml" value="0.25" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_practice_main_screen_copy.xml" value="0.25" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_purple_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_red_page.xml" value="0.18" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_summary_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_white_page.xml" value="0.16417272338606242" />
-        <entry key="..\:/Mobile_Computing/LearnColors/app/src/main/res/layout/activity_yellow_page.xml" value="0.1641025641025641" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout-land/activity_albhabet_toimage.xml" value="0.1328125" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout-land/activity_learn_alphabets.xml" value="0.1328125" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout-land/activity_main.xml" value="0.1328125" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout-land/activity_take_test.xml" value="0.1328125" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout/activity_albhabet_toimage.xml" value="0.2" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout/activity_learn_alphabets.xml" value="0.2" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/aumoh/Downloads/LearnAlphabets/app/src/main/res/layout/activity_take_test.xml" value="0.2" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout-land/activity_albhabet_toimage.xml" value="0.18" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout-land/activity_learn_alphabets.xml" value="0.33" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout-land/activity_main.xml" value="0.13243243243243244" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout-land/activity_take_test.xml" value="0.16875" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout/activity_albhabet_toimage.xml" value="0.15" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout/activity_learn_alphabets.xml" value="0.16" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/aumoh/Downloads/Sample Apps/LearnAlphabets/app/src/main/res/layout/activity_take_test.xml" value="0.2" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout-land/activity_learn_alphabets.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout-land/activity_main.xml" value="0.2724867724867725" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout-land/activity_take_test.xml" value="0.33" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout/activity_albhabet_toimage.xml" value="0.2" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout/activity_learn_alphabets.xml" value="0.18" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/grengo/AndroidStudioProjects/LearnAlphabets/app/src/main/res/layout/activity_take_test.xml" value="0.33" />
       </map>
     </option>
   </component>

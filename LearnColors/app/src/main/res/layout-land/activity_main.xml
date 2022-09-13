@@ -4,51 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F1F1F1"
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="420dp"
-        android:layout_height="195dp"
-        android:layout_marginTop="40dp"
+        android:id="@+id/imageView2"
+        android:layout_width="324dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/Test"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/learnbtn"
+        android:id="@+id/Test"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="92dp"
+        android:layout_weight="0.2"
+        android:backgroundTint="#F44336"
+        android:onClick="onClick"
+        android:text="TakeTest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Repo"
+        app:layout_constraintStart_toEndOf="@+id/Learn"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/Repo"
+        android:layout_width="122dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_weight="1"
+        android:backgroundTint="#4CAF50"
+        android:onClick="onClick"
+        android:text="@string/repository"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Test" />
+
+    <Button
+        android:id="@+id/Learn"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="26dp"
+        android:layout_weight="1"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick"
+        android:text="Learn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Test"
+        app:layout_constraintEnd_toStartOf="@+id/Test"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:text="Learn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.335" />
-
-    <Button
-        android:id="@+id/practicebtn"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="150dp"
-        android:text="Practice"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.335" />
-
-    <Button
-        android:id="@+id/repobutton"
-        android:layout_width="138dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="250dp"
-        android:text="Source Code"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
+        app:srcCompat="@drawable/commits" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,4 +1,4 @@
-package com.example.learncolors;
+package com.example.LearnColors;
 
 import org.junit.Test;
 

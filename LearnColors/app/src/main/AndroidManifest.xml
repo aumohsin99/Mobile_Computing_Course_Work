@@ -1,62 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.learncolors">
+    package="com.example.LearnColors">
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LearnColors"
-        tools:targetApi="31">
+        android:theme="@style/Theme.LearnColors">
         <activity
-            android:name=".QuestionScreen"
+            android:name=".TakeTest"
             android:exported="false" />
         <activity
-            android:name=".SummaryPage"
+            android:name=".LearnColors"
             android:exported="false" />
         <activity
-            android:name=".YellowPage"
-            android:exported="false" />
-        <activity
-            android:name=".WhitePage"
-            android:exported="false" />
-        <activity
-            android:name=".PinkPage"
-            android:exported="false" />
-        <activity
-            android:name=".PurplePage"
-            android:exported="false" />
-        <activity
-            android:name=".GreenPage"
-            android:exported="false" />
-        <activity
-            android:name=".GrayPage"
-            android:exported="false" />
-        <activity
-            android:name=".BrownPage"
-            android:exported="false" />
-        <activity
-            android:name=".BlackPage"
-            android:exported="false" />
-        <activity
-            android:name=".OrangePage"
-            android:exported="false" />
-        <activity
-            android:name=".BluePage"
-            android:exported="false" />
-        <activity
-            android:name=".RedPage"
-            android:exported="false" />
-        <activity
-            android:name=".PracticeMainScreen"
-            android:exported="false" />
-        <activity
-            android:name=".LearnMainScreen"
+            android:name=".ColorToimage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
